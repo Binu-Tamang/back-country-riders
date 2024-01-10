@@ -1,0 +1,183 @@
+@media (max-width: 35em) {
+  strong {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .header-logo {
+    width: 100px;
+    z-index: 4;
+  }
+  .nav-bar-up a{
+    font-size: 16px;
+  }
+  .header-logo{
+    top: -20px;
+  }
+  .nav-bar-up .header-social-media {
+    padding: 2px;
+  }
+  .header-logo img {
+    padding: 3px;
+  }
+  .abt-box-text p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .about-us-right {
+    margin-left: 10px;
+  }
+
+  .main {
+    margin-top: 8rem;
+  }
+
+  section {
+    margin-top: 4rem;
+  }
+
+  section.welcome-part {
+    margin-top: 5rem;
+    padding: 4.5rem 0;
+  }
+  section.isotope-project {
+    padding-right: 2rem;
+  }
+  .welcome-right {
+    margin: 0 1rem;
+  }
+  .portfolio-item .item {
+    width: 100%;
+  }
+  .poster-box {
+    margin-bottom: 10px;
+  }
+  footer.main-footer {
+    height: 100%;
+  }
+  .footer-contact-box {
+    padding: 1rem 0;
+  }
+  .abt-box-wrap{
+    margin-bottom: 15px;
+  }
+  
+/* ====responsive menu bar===== */
+.nav {
+    height: 65px;
+    width: 100%;
+    background-color: #01496a;
+    position: relative;
+    padding: 0px;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  ul.menu-ul {
+    display: block;
+    padding: 2rem;
+    text-align: left;
+    margin: 0;
+    padding-top: 4.5rem;
+  }
+  
+  ul.menu-ul li {
+    padding: 6px 0;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 575px) {
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333333eb;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+    z-index: 3;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
