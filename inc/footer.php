@@ -25,11 +25,11 @@
                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-phone-volume"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
             </ul>
         </div>
-        <p>All Rights Reserved 2023 Back Country Riders</p>
+        <p>All Rights Reserved 2024 Back Country Riders</p>
         <div class="text-md-center text-white my-sm-0 my-2">
             Designed &amp; Hosted By :
             <a href="https://www.mapleleapgroups.com" title="MapleLeapGroups"><img loading="lazy" decoding="async"

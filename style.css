@@ -10061,9 +10061,7 @@ section.location-map {
   animation: animatedBackground 15s linear infinite;
   padding: 4rem;
 }
-.main-container-md {
-  overflow-x: clip;
-}
+
 @keyframes animatedBackground {
   0% {
     background-position: 0 0;

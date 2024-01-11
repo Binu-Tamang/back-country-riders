@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <!-- header parts start -->
-    <?php include('inc/header.php') ?>
-    <!-- header part ends -->
-
     <div class="container-md bg-white ">
+        <!-- header parts start -->
+        <?php include('inc/header.php') ?>
+        <!-- header part ends -->
+
         <section class="about-us">
             <div class="about-us-box">
                 <div class="row">
@@ -26,10 +26,13 @@
                         <div class="abt-box-wrap">
                             <img src="assets/img/mountain.png" alt="icon">
                             <div class="abt-box-text">
-                                <strong>Our Mission</strong>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
-                                    provident possimus!
-                                </p>
+                                <div class="box-text">
+                                    <strong>Our Mission</strong>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
+                                        provident possimus!
+                                    </p>
+                                </div>
+                                <a href="#">Learn More ></a>
                             </div>
                         </div>
                     </div>
@@ -37,10 +40,13 @@
                         <div class="abt-box-wrap">
                             <img src="assets/img/medal.png" alt="icon">
                             <div class="abt-box-text">
-                                <strong>Our Vission</strong>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
-                                    provident possimus!
-                                </p>
+                                <div class="box-text">
+                                    <strong>Our Vission</strong>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
+                                        provident possimus!
+                                    </p>
+                                </div>
+                                <a href="#">Learn More ></a>
                             </div>
                         </div>
                     </div>
@@ -48,10 +54,13 @@
                         <div class="abt-box-wrap">
                             <img src="assets/img/snowflake.png" alt="icon">
                             <div class="abt-box-text">
-                                <strong>Environment Stance</strong>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
-                                    provident possimus!
-                                </p>
+                                <div class="box-text">
+                                    <strong>Environment Stance</strong>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
+                                        provident possimus!
+                                    </p>
+                                </div>
+                                <a href="#">Learn More ></a>
                             </div>
                         </div>
                     </div>
@@ -59,10 +68,13 @@
                         <div class="abt-box-wrap">
                             <img src="assets/img/helmet.png" alt="icon">
                             <div class="abt-box-text">
-                                <strong>Safety</strong>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
-                                    provident possimus!
-                                </p>
+                                <div class="box-text">
+                                    <strong>Safety</strong>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi fuga
+                                        provident possimus!
+                                    </p>
+                                </div>
+                                <a href="#">Learn More ></a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +103,7 @@
 
         <section class="welcome-part">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="welcome-left">
                         <div class="welcome-right">
                             <span class="headlight-h">Snow Mountain</span>
@@ -108,43 +120,51 @@
                         <!-- <img src="assets/img/welcome.jpg" alt="welcome images"> -->
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="main-container-md">
                         <div class="main">
                             <div class="big-circle">
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt="icon" /> -->
-                                    <i class="fa-solid fa-gears"></i>
+                                    <a href="#">
+                                        <img src="assets/img/mountain.png" alt="icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-solid fa-house-chimney"></i>
+                                    <a href="#">
+                                        <img src="assets/img/medal.png" alt=" icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-solid fa-hospital-user"></i>
+                                    <a href="#">
+                                        <img src="assets/img/snowflake.png" alt=" icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-solid fa-car-on"></i>
+                                    <a href="#">
+                                        <img src="assets/img/helmet.png" alt=" icon" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="circle">
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-regular fa-snowflake"></i>
+                                    <a href="#">
+                                        <img src="assets/img/map.png" alt=" icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-solid fa-cable-car"></i>
+                                    <a href="#">
+                                        <img src="assets/img/image-gallery.png" alt=" icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt="icon" /> -->
-                                    <i class="fa-solid fa-person-skiing"></i>
+                                    <a href="#">
+                                        <img src="assets/img/sponsor.png" alt="icon" />
+                                    </a>
                                 </div>
                                 <div class="icon-block">
-                                    <!-- <img src="assets/img/snowflake.png" alt=" icon" /> -->
-                                    <i class="fa-solid fa-hot-tub-person"></i>
+                                    <a href="#">
+                                        <img src="assets/img/planner.png" alt=" icon" />
+                                    </a>
                                 </div>
                             </div>
                             <div class="center-logo">
@@ -316,25 +336,27 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="VideoContent">
-
                             <span class="headlight-h">Join On The Show</span>
                             <h5 class="web-header">Alberta Snowmobile Association</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae doloribus nam
                                 tempore, nisi esse commodi ab odio officiis ullam, animi pariatur magnam reiciendis
-                                cumque magni ea iusto nesciunt praesentium eligendi!</p>
+                                cumque magni ea iusto nesciunt praesentium eligendi! <br> Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Pariatur, ab, non aspernatur adipisci voluptatibus vel
+                                eveniet amet blanditiis voluptate saepe quibusdam consectetur inventore assumenda quis
+                                itaque? Atque odio accusamus nulla.</p>
                             <img src="assets/img/asa-logo.png" alt="logo">
 
-                            <div class="web-btn"> 
+                            <div class="web-btn">
                                 <a class="web-a" href="https://albertasnowmobile.ca/">View The Website</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-5">
-                        <div class="facebook-link">
-                            <iframe
+                        <div class="facebook-link text-center">
+                            <iframe loading="lazy"
                                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100077657193841%26sk%3Dphotos&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+                                width="400" height="400" style="border: none; overflow: hidden" scrolling="no"
                                 frameborder="0" allowfullscreen="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>
@@ -347,7 +369,8 @@
         <section class="sponsors-part">
             <span class="headlight-h">Our Sponsors</span>
             <h5 class="web-header">Our Sponsors</h5>
-            <div class="brand-name">
+            <!-- big sponsors -->
+            <div class="brand-name big-sponsor">
                 <div class="owl-carousel brand-owl owl-theme">
                     <div class="item">
                         <div class="brand-img">
@@ -356,27 +379,27 @@
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/d-1.png" alt="brand">
                         </div>
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/d-2.jpg" alt="brand">
                         </div>
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/d-3.jpg" alt="brand">
                         </div>
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/snowflake.png" alt="brand">
                         </div>
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/sm-logo.png" alt="brand">
                         </div>
                     </div>
                     <div class="item">
@@ -387,7 +410,12 @@
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/location.png" alt="brand">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="brand-img">
+                            <img src="assets/img/helmet.png" alt="brand">
                         </div>
                     </div>
                     <div class="item">
@@ -397,17 +425,67 @@
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/sponsor.png" alt="brand">
                         </div>
                     </div>
                     <div class="item">
                         <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                            <img src="assets/img/medal.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- small sponsors -->
+            <div class="brand-name small-sponsor">
+                <div class="owl-carousel brand-small-owl owl-theme">
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Community</span>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="brand-img">
-                            <img src="assets/img/mountain.png" alt="brand">
+                        <div class="sponsor-name">
+                            <span>Society</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Alberta Snowmobile</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Reimbursement Program</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Owl Carousel</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Sponsors Name</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Magnific Popup</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Community</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Back Country Riders</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sponsor-name">
+                            <span>Isotopes</span>
                         </div>
                     </div>
                 </div>
@@ -420,7 +498,7 @@
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"">
             </iframe> -->
-            <img src="assets/img/map.png" alt="">
+            <img src="assets/img/location.png" alt="location">
         </section>
 
         <section class=" newsletter snow">

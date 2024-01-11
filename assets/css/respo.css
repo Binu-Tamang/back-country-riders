@@ -1,72 +1,75 @@
-@media (max-width: 35em) {
-  strong {
-    font-size: 20px;
+@media (min-width: 226px) and (max-width: 560px) {
+  .container-md.bg-white {
+    overflow: hidden;
   }
-
-  p {
-    font-size: 15px;
-  }
-  .header-logo {
-    width: 100px;
-    z-index: 4;
-  }
-  .nav-bar-up a{
-    font-size: 16px;
-  }
-  .header-logo{
-    top: -20px;
-  }
-  .nav-bar-up .header-social-media {
-    padding: 2px;
-  }
-  .header-logo img {
-    padding: 3px;
-  }
-  .abt-box-text p {
-    font-size: 15px;
-    line-height: 17px;
-  }
-
-  .about-us-right {
-    margin-left: 10px;
-  }
-
-  .main {
-    margin-top: 8rem;
-  }
-
-  section {
-    margin-top: 4rem;
-  }
-
-  section.welcome-part {
-    margin-top: 5rem;
-    padding: 4.5rem 0;
-  }
-  section.isotope-project {
-    padding-right: 2rem;
-  }
-  .welcome-right {
-    margin: 0 1rem;
-  }
-  .portfolio-item .item {
-    width: 100%;
-  }
-  .poster-box {
-    margin-bottom: 10px;
-  }
-  footer.main-footer {
-    height: 100%;
-  }
-  .footer-contact-box {
-    padding: 1rem 0;
-  }
-  .abt-box-wrap{
-    margin-bottom: 15px;
-  }
+    strong {
+      font-size: 20px;
+    }
   
-/* ====responsive menu bar===== */
-.nav {
+    p {
+      font-size: 15px;
+    }
+    .header-logo {
+      width: 100px;
+      z-index: 4;
+    }
+    .nav-bar-up a {
+      font-size: 16px;
+    }
+    .header-logo {
+      top: -20px;
+    }
+    .nav-bar-up .header-social-media {
+      padding: 6px 0;
+    }
+    .header-logo img {
+      padding: 3px;
+    }
+    .abt-box-text p {
+      font-size: 15px;
+      line-height: 17px;
+    }
+  
+    .about-us-right {
+      margin-left: 10px;
+    }
+  
+    .main {
+      margin-top: 8rem;
+    }
+  
+    section {
+      margin-top: 4rem;
+    }
+  
+    section.welcome-part {
+      margin-top: 5rem;
+      padding: 4.5rem 0;
+    }
+    section.isotope-project {
+      padding-right: 2rem;
+    }
+    .welcome-right {
+      margin: 0 1rem;
+    }
+    .portfolio-item .item {
+      width: 100%;
+    }
+    .poster-box {
+      margin-bottom: 10px;
+    }
+    footer.main-footer {
+      height: 100%;
+    }
+    .footer-contact-box {
+      padding: 1rem 0;
+    }
+    .abt-box-wrap {
+      margin-bottom: 15px;
+    }
+  
+    /* ====responsive menu bar===== */
+  .nav {
     height: 65px;
     width: 100%;
     background-color: #01496a;
@@ -86,7 +89,11 @@
   }
   
   .nav > .nav-btn {
-    display: none;
+    /* display: none; */
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 0px;
   }
   
   .nav > .nav-links {
@@ -120,27 +127,40 @@
   ul.menu-ul li {
     padding: 6px 0;
   }
-}
-
-@media (min-width: 560px) and (max-width: 575px) {
-}
-
-@media (min-width: 575px) and (max-width: 767px) {
-}
-
-@media (min-width: 767px) and (max-width: 991px) {
-}
-
-@media (min-width: 992px) {
-}
-
-@media (max-width: 600px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+  /* ====circle animation==== */
+  
+  .center-logo img {
+    width: 100px;
   }
+  
+  .circle {
+    width: 40%;
+    height: 40%;
+    top: 35%;
+    left: 35%;
+  }
+  
+  .big-circle {
+    width: 60%;
+    height: 60%;
+    top: 5%;
+    left: 5%;
+  }
+  
+  .center-logo {
+    top: 35%;
+    left: 35%;
+  }
+  
+  .main {
+    margin-top: 4rem;
+  }
+  
+  section.welcome-part {
+    padding-bottom: 0 !important;
+  }
+  /* ==================== */
+  
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
@@ -169,9 +189,56 @@
     left: 0px;
     z-index: 3;
   }
-  .nav > .nav-links > a {
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  section {
+    padding: 0 0.5rem !important;
+  }
+  }
+  
+  @media (min-width: 560px) and (max-width: 575px) {
+    /* .nav.navi-menu {
+      background: #326676;
+      padding: 1rem 0;
+    }
+    .nav.navi-menu {
+      background: #326676;
+      padding: 1rem 0;
+      position: relative;
+  } */
+  
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
     display: block;
     width: 100%;
+    background-color: #333333eb;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+    z-index: 3;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
@@ -180,4 +247,105 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+  .main {
+    margin-top: 4rem;
+  }
+  }
+  
+  @media (min-width: 575px) and (max-width: 767px) {
+    .nav.navi-menu {
+      background: #326676;
+      padding: 1rem 0;
+      position: relative;
+  }
+  
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333333eb;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+    z-index: 3;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  }
+  
+  @media (min-width: 767px) and (max-width: 991px) {
+    
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 65px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333333eb;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+    z-index: 3;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  }
+  
+  @media (min-width: 992px) {
+  }
+  
+  @media (max-width: 600px) {
+   
+  }
+  @media (max-width: 35em) {
+  section {
+    padding: 0 0.5rem !important;
+  }
+  .facebook-link.text-end {
+    overflow: hidden;
 }
+  }

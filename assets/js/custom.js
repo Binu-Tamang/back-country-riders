@@ -55,3 +55,24 @@ $(".brand-owl").owlCarousel({
 	  },
 	},
   });
+
+  $(".brand-small-owl").owlCarousel({
+	loop: true,
+	autoplay: true,
+	items: 1,
+	stagePadding: 5,
+	margin: 50,
+	nav: false,
+	dots:false,
+	responsive: {
+	  0: {
+		items: 1,
+	  },
+	  600: {
+		items: 3,
+	  },
+	  1000: {
+		items: 4,
+	  },
+	},
+  });
