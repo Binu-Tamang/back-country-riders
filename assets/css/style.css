@@ -9345,8 +9345,8 @@ progress {
   line-height: 1.3em;
   letter-spacing: 3px;
   /* text-transform: uppercase; */
-  font-family: 'Lemon', serif;
-font-family: 'Quicksand', sans-serif;
+  font-family: "Lemon", serif;
+  font-family: "Quicksand", sans-serif;
 }
 p {
   color: #606060;
@@ -9551,7 +9551,7 @@ section.welcome-part {
   transition: 0.3s ease;
 }
 strong {
-  color: #607D8B;
+  color: #607d8b;
   font-family: "Cormorant";
   font-size: 22px;
   letter-spacing: 1px;
@@ -9608,6 +9608,7 @@ section.about-us {
   height: 295px;
   border: 1px solid #326676;
   border-style: dotted;
+  margin-bottom: 12px;
 }
 
 section.event-section {
@@ -9626,7 +9627,7 @@ section.event-section h2 {
   padding-bottom: 1rem;
 }
 .up-coming-title h3 {
-  color: #607D8B;
+  color: #607d8b;
 }
 
 .up-coming-title {
@@ -9670,7 +9671,7 @@ section.location-map img {
 .small-spo li {
   list-style: none;
   color: #607d8b;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -9689,7 +9690,8 @@ footer.main-footer {
   background: #1f2b2e;
   color: #fff;
   text-align: center;
-  background-image: linear-gradient(rgb(31 45 48 / 85%), rgb(31 45 48 / 82%)),    url(../img/mountain.png);
+  background-image: linear-gradient(rgb(31 45 48 / 85%), rgb(31 45 48 / 82%)),
+    url(../img/g-5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9715,37 +9717,38 @@ footer.main-footer {
   display: inline-grid;
 }
 .footer-down strong {
-  color: #fff;font-size: 25px;
+  color: #fff;
+  font-size: 25px;
 }
 .footer-social-icon ul li {
-    list-style: none;
-    display: inline-flex;
+  list-style: none;
+  display: inline-flex;
 }
 .footer-social-icon ul li i {
-    color: #fff;
-    margin: 8px;
-    font-size: 30px;
+  color: #fff;
+  margin: 8px;
+  font-size: 30px;
 }
 .footer-social-icon ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .footer-social-icon p {
-    color: #fff !important;
+  color: #fff !important;
 }
 .footer-down p {
-    color: #fff;
-    padding: 1rem;
+  color: #fff;
+  padding: 1rem;
 }
 .footer-contact {
-    padding-top: 3rem;
-    /* margin-top: 5rem; */
+  padding-top: 3rem;
+  /* margin-top: 5rem; */
 }
 .footer-down {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 section.newsletter {
-  background: #9E9E9E;
+  background: #9e9e9e;
   /* padding: 3rem; */
   text-align: center;
   /* background-image: linear-gradient(#9e9e9e82, rgb(158 158 158 / 55%)),    url(../img/newletter-bg.jpg); */
@@ -9993,10 +9996,8 @@ button.web-a:hover {
 /* ====images masnory css=== */
 .grid {
   display: grid;
-  grid-template-rows: 
-    repeat(4, 180px);
-  grid-template-columns: 
-    repeat(3, 1fr);
+  grid-template-rows: repeat(4, 180px);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
 }
 
@@ -10114,7 +10115,7 @@ section.sponsors-part {
   padding: 10px;
 }
 .nav-bar-down {
-    padding: 4px 0;
+  padding: 4px 0;
 }
 /* ====cube slider css==== */
 .brand-img img {
@@ -10161,9 +10162,9 @@ section.sponsors-part {
   line-height: 1.3em;
   letter-spacing: 1px;
   /* text-transform: uppercase; */
-  border: 1px solid #9E9E9E;
+  border: 1px solid #9e9e9e;
   /* font-family: 'Lemon', serif; */
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   padding: 0.5rem;
   border-style: dashed;
 }
@@ -10172,4 +10173,140 @@ section.sponsors-part {
 }
 .facebook-link.text-end {
   overflow: hidden;
+}
+section.event-section .web-btn {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+/* ===web banner css===== */
+.page-header {
+  background: url(../img/g-6.jpg);
+  height: 350px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 4rem;
+}
+ol.breadcrumb.justify-content-center.text-uppercase a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  font-family: "Quicksand", sans-serif;
+}
+.web-banner-wrapper {
+  padding: 2rem 0;
+  background: #f0f8ff7d;
+  /* width: 50%; */
+  margin: 0 5rem;
+}
+/* ===drop down menu css==== */
+/* Add styling to the custom dropdown */
+:root {
+  --button-background: dodgerblue;
+  --button-color: white;
+  
+  --dropdown-highlight: dodgerblue;
+  --dropdown-width: 160px;
+  --dropdown-background: white;
+  --dropdown-color: black;
+}
+
+/* Center the dropdown */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222229;
+} */
+
+/* Button styles */
+a.button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none; /* Remove default underline */
+}
+
+a.button:active {
+  filter: brightness(75%);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block; /* Added this line to make sure the dropdown is displayed inline */
+}
+
+.dropdown ul {
+  display: none;
+  position: absolute;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  width: var(--dropdown-width);
+  left: 50%;
+  margin-left: calc((var(--dropdown-width) / 2)  * -1);
+  box-sizing: border-box;
+  z-index: 2;
+  background: var(--dropdown-background);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li a:link,
+.dropdown ul li a:visited {
+  display: block; /* Changed to block to make the links fill the container */
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+  color: #01496a;
+  padding: 4px 0;
+}
+
+.dropdown ul li a:hover {
+  background-color: #607d8b;
+  color: var(--dropdown-background);
+}
+
+/* Dropdown triangle */
+.dropdown ul::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent var(--dropdown-background) transparent;
+}
+
+/* Show/hide dropdown on button click */
+.dropdown:focus-within ul {
+  display: block;
+}
+/* ============ */
+section.newsletter.gap-newsletter.snow {
+  margin-top: 6rem;
 }

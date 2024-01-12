@@ -22,7 +22,7 @@
 <script defer src="assets/js/owl.carousel.min.js"></script>
 <script defer src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
 
-<!-- vegas -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
 <!-- custom js -->
 <script defer src="assets/js/custom.js"></script>

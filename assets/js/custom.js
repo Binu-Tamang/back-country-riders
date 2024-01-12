@@ -13,27 +13,7 @@ var grid = $(".portfolio-item").isotope({
       filter: category,
     });
   });
-  
-  // popup images
-//   document.addEventListener("DOMContentLoaded", function () {
-//     const portfolioItems = document.querySelectorAll(".item");
-  
-//     portfolioItems.forEach(function (item) {
-//       const image = item.querySelector("img");
-//       const popupContainer = document.createElement("div");
-//       popupContainer.classList.add("popup-container");
-//       popupContainer.innerHTML = `<img class="popup-image" src="${image.src}" alt="">`;
-//       document.body.appendChild(popupContainer);
-  
-//       item.addEventListener("click", function () {
-//         popupContainer.style.display = "flex";
-//       });
-  
-//       popupContainer.addEventListener("click", function () {
-//         popupContainer.style.display = "none";
-//       });
-//     });
-//   });
+
 
 $(".brand-owl").owlCarousel({
 	loop: true,
@@ -76,3 +56,5 @@ $(".brand-owl").owlCarousel({
 	  },
 	},
   });
+
+//   popup images

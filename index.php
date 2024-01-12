@@ -9,7 +9,7 @@
 
 
     <!-- favicon link -->
-    <link rel="icon" type="images/png" href="">
+    <link rel="icon" type="assets/img/sm-logo.png" href="logo">
     <title>Back Country Riders </title>
 </head>
 
@@ -18,6 +18,45 @@
         <!-- header parts start -->
         <?php include('inc/header.php') ?>
         <!-- header part ends -->
+
+        <section class="bg-banner">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/g-2.jpg" class="d-block w-100" alt="banner background">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/g-3.jpg" class="d-block w-100" alt="banner background">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/g-1.jpg" class="d-block w-100" alt="banner background">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/g-4.jpg" class="d-block w-100" alt="banner background">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
         <section class="about-us">
             <div class="about-us-box">
@@ -117,7 +156,6 @@
                                 <a class="web-a" href="#">View More +</a>
                             </div>
                         </div>
-                        <!-- <img src="assets/img/welcome.jpg" alt="welcome images"> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -195,46 +233,10 @@
                         <img src="assets/img/poster-3.jpg" alt="poster">
                     </div>
                 </div>
+                <div class="web-btn">
+                    <a class="web-a" href="#">View More</a>
+                </div>
             </div>
-            <!-- <div class="up-coming-e">
-<div class="row">
-<div class="col-md-4">
-<div class="up-coming-title">
-<h3 class="web-header">Upcoming Events</h3>
-<p>Find more upcoming events in Back Country Riders</p>
-<div class="web-btn">
-<a class="web-a" href="#">View More +</a>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="up-coming-poster">
-<div class="row">
-<div class="col-md-6">
-<div class="poster-box box-up-poster">
-<img src="assets/img/poster-1.jpg" alt="poster">
-</div>
-</div>
-<div class="col-md-6">
-<div class="poster-box box-up-poster">
-<img src="assets/img/poster-1.jpg" alt="poster">
-</div>
-</div>
-<div class="col-md-6">
-<div class="poster-box box-up-poster">
-<img src="assets/img/poster-1.jpg" alt="poster">
-</div>
-</div>
-<div class="col-md-6">
-<div class="poster-box box-up-poster">
-<img src="assets/img/poster-1.jpg" alt="poster">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
         </section>
 
         <!-- isotope project -->
@@ -256,73 +258,73 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="item one-iso">
-                            <a href="assets/img/g-1.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-1.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-1.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-1.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item two-iso">
-                            <a href="assets/img/g-8.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-8.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-8.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-8.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item three-iso">
-                            <a href="assets/img/g-4.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-4.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-4.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-4.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item one-iso">
-                            <a href="assets/img/g-2.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-2.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-2.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-2.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item two-iso">
-                            <a href="assets/img/g-7.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-7.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-7.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-7.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item three-iso">
-                            <a href="assets/img/g-6.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-6.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-6.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-6.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item one-iso">
-                            <a href="assets/img/g-5.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-5.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-5.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-5.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-4">
                         <div class="item one-iso">
-                            <a href="assets/img/g-3.jpg" class="image-link-js" id="my-popup" data-lightbox="pop-images"
-                                title="pop images"></a>
-                            <img class="pop-images aos-init aos-animate" src="assets/img/g-3.jpg" alt="" width="100"
-                                height="100">
+                            <a href="assets/img/g-3.jpg" class="image-link-js test-popup-link" id="my-popup"
+                                data-lightbox="pop-images" title="pop images">
+                                <img class="pop-images aos-init aos-animate" src="assets/img/g-3.jpg" alt="" width="100"
+                                    height="100"></a>
                         </div>
                     </div>
                 </div>
@@ -356,7 +358,7 @@
                         <div class="facebook-link text-center">
                             <iframe loading="lazy"
                                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100077657193841%26sk%3Dphotos&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                width="400" height="400" style="border: none; overflow: hidden" scrolling="no"
+                                width="400" height="500" style="border: none; overflow: hidden" scrolling="no"
                                 frameborder="0" allowfullscreen="true"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>

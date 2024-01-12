@@ -24,6 +24,8 @@
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+
 <!-- custom css -->
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/isotope.css">
