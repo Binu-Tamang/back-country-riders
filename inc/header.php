@@ -24,16 +24,16 @@
             <ul class="menu-ul">
                 <li><a href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
                 <li class="dropdown">
-                    <a href="#" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
+                    <a href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">ASA Snowmobile</a></li>
                     </ul>
                 </li>
                 <li><a href="events.php">Events</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Our Trails</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="sponsor.php">Sponsors</a></li>
+                <li><a href="trails.php">Our Trails</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -59,18 +59,17 @@
                         <ul class="menu-ul">
                             <li><a href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
                             <li class="dropdown">
-                                <a href="#" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
+                                <a href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
                                 <ul class="dropdown-content">
                                     <li><a href="#">ASA Snowmobile</a></li>
                                 </ul>
                             </li>
                             <li><a href="events.php">Events </a></li>
                             <li><a href="gallery.php">Gallery </a></li>
-                            <li><a href="#">Sponsors </a></li>
-                            <li><a href="#">Our Trails </a></li>
-                            <li><a href="#">Contact Us </a></li>
+                            <li><a href="sponsor.php">Sponsors </a></li>
+                            <li><a href="trails.php">Our Trails </a></li>
+                            <li><a href="contact-us.php">Contact Us </a></li>
                         </ul>
-
                     </div>
                 </div>
             </div>
