@@ -26,76 +26,31 @@
 
     <section class="about-us">
       <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="about-us-left">
             <img src="assets/img/g-8.jpg" alt="rider">
           </div>
-        </div>
-        <div class="col-md-6">
+        </div> -->
+        <div class="col-md-12">
           <div class="about-us-right">
             <span class="headlight-h">Welcome To</span>
             <h1 class="web-header">Back Country Rider</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam fugit veniam, explicabo,
               sequi eius neque ipsam praesentium obcaecati maiores iste amet in. Earum dolorum recusandae
-              molestias, praesentium labore aliquam voluptate.</p>
-            <div class="web-btn">
-              <a class="web-a" href="#">View More +</a>
-            </div>
+              molestias, praesentium labore aliquam voluptate. <br> Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Dolor velit quas aliquam autem nemo voluptatibus blanditiis pariatur dolorem quidem eum error
+              nostrum ex repellat quis ab natus, magni sed fugit.</p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="about-us-details">
-      <div class="about-box">
+      <div class="about-box abt-box-two">
         <div class="row">
           <div class="col-md-6">
-            <div class="about-box-left">
-              <img src="assets/img/welcome.jpg" alt="welcome">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="about-box-right">
-              <div class="about-box-content">
-                <h2 class="web-header">Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
-                  odit
-                  laborum nulla! Quaerat vel ad harum. Quas deleniti maiores expedita nobis fugiat accusamus
-                  voluptatibus?
-                  Dolore? banner <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus autem
-                  modi, tenetur alias aliquid ut debitis nostrum nemo quia odio fugiat odit, deserunt facilis maiores.
-                  Dignissimos consequatur ducimus numquam?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-box-left">
-              <img src="assets/img/welcome.jpg" alt="welcome">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="about-box-right">
-              <div class="about-box-content">
-                <h2 class="web-header">Our Mission</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
-                  odit
-                  laborum nulla! Quaerat vel ad harum. Quas deleniti maiores expedita nobis fugiat accusamus
-                  voluptatibus?
-                  Dolore? banner <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus autem
-                  modi, tenetur alias aliquid ut debitis nostrum nemo quia odio fugiat odit, deserunt facilis maiores.
-                  Dignissimos consequatur ducimus numquam?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-box-right">
-              <div class="about-box-content">
+            <div class="about-box-left2">
+              <div class="about-box-content2">
                 <h2 class="web-header">Our Mission</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
                   odit
@@ -109,21 +64,71 @@
           </div>
           <div class="col-md-6">
             <div class="about-box-left">
-              <img src="assets/img/welcome.jpg" alt="welcome">
+              <img src="assets/img/g-3.jpg" alt="welcome">
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="about-box abt-box-two">
         <div class="row">
           <div class="col-md-6">
             <div class="about-box-left">
-              <img src="assets/img/welcome.jpg" alt="welcome">
+              <img src="assets/img/g-5.jpg" alt="welcome">
             </div>
           </div>
           <div class="col-md-6">
-            <div class="about-box-right">
-              <div class="about-box-content">
-                <h2 class="web-header">Our Mission</h2>
+            <div class="about-box-left2">
+              <div class="about-box-content2">
+                <h2 class="web-header">Our Vission</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
+                  odit
+                  laborum nulla! Quaerat vel ad harum. Quas deleniti maiores expedita nobis fugiat accusamus
+                  voluptatibus?
+                  Dolore? banner <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus autem
+                  modi, tenetur alias aliquid ut debitis nostrum nemo quia odio fugiat odit, deserunt facilis maiores.
+                  Dignissimos consequatur ducimus numquam?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box abt-box-two">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-box-left2">
+              <div class="about-box-content2">
+                <h2 class="web-header">Environment Stance</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
+                  odit
+                  laborum nulla! Quaerat vel ad harum. Quas deleniti maiores expedita nobis fugiat accusamus
+                  voluptatibus?
+                  Dolore? banner <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus autem
+                  modi, tenetur alias aliquid ut debitis nostrum nemo quia odio fugiat odit, deserunt facilis maiores.
+                  Dignissimos consequatur ducimus numquam?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-box-left">
+              <img src="assets/img/g-1.jpg" alt="welcome">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box abt-box-two">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-box-left">
+              <img src="assets/img/g-7.jpg" alt="welcome">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-box-left2">
+              <div class="about-box-content2">
+                <h2 class="web-header">Safety</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi voluptates, culpa nihil harum
                   odit
                   laborum nulla! Quaerat vel ad harum. Quas deleniti maiores expedita nobis fugiat accusamus

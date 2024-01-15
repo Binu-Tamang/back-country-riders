@@ -22,18 +22,23 @@
 
         <div class="nav-links">
             <ul class="menu-ul">
-                <li><a href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
+                <li><a class="nav-link-show" href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
                 <li class="dropdown">
-                    <a href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
+                    <a class="nav-link-show" href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">ASA Snowmobile</a></li>
+                        <li><a class="nav-link-show" href="asa-page.php">ASA Snowmobile</a></li>
                     </ul>
                 </li>
-                <li><a href="events.php">Events</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="sponsor.php">Sponsors</a></li>
-                <li><a href="trails.php">Our Trails</a></li>
-                <li><a href="contact-us.php">Contact Us</a></li>
+                <li><a class="nav-link-show" href="events.php">Events</a></li>
+                <li class="dropdown">
+                    <a class="nav-link-show" href="gallery.php" class="button">Gallery <i class="fa-solid fa-sort-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a class="nav-link-show" href="send-photo.php">Send Us Photo</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link-show" href="sponsor.php">Sponsors</a></li>
+                <li><a class="nav-link-show" href="trails.php">Our Trails</a></li>
+                <li><a class="nav-link-show" href="contact-us.php">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -57,18 +62,23 @@
                 <div class="col-md-10">
                     <div class="nav-list">
                         <ul class="menu-ul">
-                            <li><a href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
+                            <li><a class="nav-link-show" href="index.php">Home <i class="fa-solid fa-house"></i></a></li>
                             <li class="dropdown">
-                                <a href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
+                                <a class="nav-link-show" href="about-us.php" class="button">About Us <i class="fa-solid fa-sort-down"></i></a>
                                 <ul class="dropdown-content">
-                                    <li><a href="#">ASA Snowmobile</a></li>
+                                    <li><a class="nav-link-show" href="asa-page.php">ASA Snowmobile</a></li>
                                 </ul>
                             </li>
-                            <li><a href="events.php">Events </a></li>
-                            <li><a href="gallery.php">Gallery </a></li>
-                            <li><a href="sponsor.php">Sponsors </a></li>
-                            <li><a href="trails.php">Our Trails </a></li>
-                            <li><a href="contact-us.php">Contact Us </a></li>
+                            <li><a class="nav-link-show" href="events.php">Events </a></li>
+                            <li class="dropdown">
+                                <a class="nav-link-show" href="gallery.php" class="button">Gallery <i class="fa-solid fa-sort-down"></i></a>
+                                <ul class="dropdown-content">
+                                    <li><a class="nav-link-show" href="send-photo.php">Send Us Photo</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link-show" href="sponsor.php">Sponsors </a></li>
+                            <li><a class="nav-link-show" href="trails.php">Our Trails </a></li>
+                            <li><a class="nav-link-show" href="contact-us.php">Contact Us </a></li>
                         </ul>
                     </div>
                 </div>

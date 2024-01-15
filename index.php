@@ -369,7 +369,7 @@
                             <img src="assets/img/asa-logo.png" alt="logo">
 
                             <div class="web-btn">
-                                <a class="web-a" href="https://albertasnowmobile.ca/">View The Website</a>
+                                <a class="web-a" href="asa-page.php">View More +</a>
                             </div>
                         </div>
                     </div>
